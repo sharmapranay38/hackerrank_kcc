@@ -1,0 +1,12 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int a,b;
+    cout<<"enter 2 numbers : ";
+    cin>>a>>b;
+    int k;
+    k = a;
+    a = b;
+    b = k;
+    cout<<"swapped numbers are : "<<a<<" and "<<b;
+}
