@@ -1,0 +1,8 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int user;
+    cin>>user;
+    if(user>=0) cout<<"positive";
+    else cout<<"negative";
+}
