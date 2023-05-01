@@ -9,4 +9,5 @@ int main(){
     a = b;
     b = k;
     cout<<"swapped numbers are : "<<a<<" and "<<b;
+    return 0;
 }
