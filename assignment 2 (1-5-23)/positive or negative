@@ -5,4 +5,5 @@ int main(){
     cin>>user;
     if(user>=0) cout<<"positive";
     else cout<<"negative";
+    return 0;
 }
