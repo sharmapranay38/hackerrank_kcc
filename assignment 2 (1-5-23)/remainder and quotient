@@ -7,4 +7,5 @@ int main(){
     int remainder = a%b;
     int quotient = a/b;
     cout<<"remainder is "<<remainder<<" quotient is "<<quotient;
+    return 0;
 }
