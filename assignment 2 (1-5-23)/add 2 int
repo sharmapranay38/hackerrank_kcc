@@ -5,4 +5,5 @@ int main(){
     cout<<"enter 2 integers : ";
     cin>>a>>b;
     cout<<"sum is "<<a+b;
+    return 0;
 }
