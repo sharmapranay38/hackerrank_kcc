@@ -12,4 +12,5 @@ int main(){
         }
     }
     if(flag==0) cout<<"consonant";
+    return 0;
 }
