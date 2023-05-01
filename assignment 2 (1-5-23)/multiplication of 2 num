@@ -6,4 +6,5 @@ int main(){
     cin>>a>>b;
     float ans = a*b;
     cout<<"product is "<<ans;
+    return 0;
 }
