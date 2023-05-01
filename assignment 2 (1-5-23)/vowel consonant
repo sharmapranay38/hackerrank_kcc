@@ -1,0 +1,15 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int flag=0;
+    string vowel = "aeiouAEIOU";    
+    char user;
+    cin>>user;
+    for(int i=0;i<vowel.size();i++){
+        if(user==vowel[i]){
+            printf("vowel");
+            flag++;
+        }
+    }
+    if(flag==0) cout<<"consonant";
+}
