@@ -1,0 +1,9 @@
+#include<bits/stdc++.h>
+using namespace std;
+float PI = 3.141592;
+int main(){
+    int a;
+    cin>>a;
+    (a%2==0)?cout<<"even":cout<<"odd";
+    return 0;
+}
