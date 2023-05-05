@@ -1,0 +1,16 @@
+#include<bits/stdc++.h>
+using namespace std;
+float PI = 3.141592;
+int main(){
+    vector<int> store;
+    int a,b,c;
+    cout<<"enter 3 numbers : ";
+    cin>>a>>b>>c;
+    store.push_back(a);
+    store.push_back(b);
+    store.push_back(c);
+    sort(store.begin(),store.end());
+    cout<<"greatest number is : "<<store[store.size()-1];
+
+    return 0;
+}
