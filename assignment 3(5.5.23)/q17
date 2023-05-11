@@ -1,0 +1,17 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int n,r,y=0;
+    cin>>n;
+    while(n){
+        r = n%10;
+        y = y+r;
+        n=n/10;
+    }
+    cout<<"sum of digit is : "<<y;
+    return 0;
+
+}
+
+
