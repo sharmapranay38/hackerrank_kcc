@@ -1,0 +1,33 @@
+#include<bits/stdc++.h>
+using namespace std;
+int arm(int n){
+    int digit=0,sum=0,r=0;
+    // digit dhundho
+    int temp = n;
+    while(n){
+        n=n/10;
+        digit++;
+        
+    }
+    int temp2 = temp;
+    while(temp){
+        r = temp%10;
+        sum+=pow(r,digit);
+        n = temp/10;
+    }
+    if(sum==temp2) return 1;
+    else return 0;
+    
+}
+
+
+int main(){
+    
+    for(int i=1;i<101;i++){
+        if(arm(i)) cout<<i<<" ";
+
+    }
+    return 0;
+}
+
+
