@@ -1,0 +1,24 @@
+// WAP that simply takes elements of the array from the user and finds the sum of these elements.
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int size;
+    vector<int> v;
+    cout<<" enter number of elements : ";
+    cin>>size;
+    for(int i=0;i<size;i++){
+        int el;
+        cout<<"enter elements" ;
+        cin>>el;
+        v.push_back(el);
+    }
+    int count = 0;
+    for(int i=0;i<v.size();i++){
+        count+= v[i]; 
+    }
+    cout<<" sum is : "<<count;
+    return 0;
+
+}
