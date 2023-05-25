@@ -1,0 +1,66 @@
+/*Aaj ka assignment:
+
+Make a 
+class student which has its roll no
+Marks of 3 subjects
+
+
+Make 5 students
+Calculate and print their percentage according to their roll no.*/
+
+
+#include<bits/stdc++.h>
+using namespace std;
+
+class Student{
+public : 
+    void set_rollno(int roll){
+        // int roll;
+        this->roll_no = roll;
+    }
+
+    void set_marks(int a,int b,int c){
+        this->marks_eng = a;
+        this->marks_maths = b;
+        this->marks_science = c;
+    }
+
+
+
+    void display_percentage(){
+        float percent;
+        percent = (this->marks_eng + this->marks_maths + this->marks_science)/3;
+        cout<<"percentage of roll no "<<this->roll_no<<" is "<<percent<<"%"<<endl;
+    }
+
+private :
+    int roll_no;
+    int marks_eng,marks_maths,marks_science;
+};
+
+int main(){
+    Student pranay,aadarsh,paras,roshan,vikash;
+    pranay.set_marks(90,50,98);
+    pranay.set_rollno(22015);
+    pranay.display_percentage();
+
+    aadarsh.set_marks(87,1,15);
+    aadarsh.set_rollno(10210);
+    aadarsh.display_percentage();
+
+    paras.set_marks(90,50,100);
+    paras.set_rollno(1021);
+    paras.display_percentage();
+
+    roshan.set_marks(20,40,5);
+    roshan.set_rollno(10235);
+    roshan.display_percentage();
+
+    vikash.set_marks(90,50,98);
+    vikash.set_rollno(10000);
+    vikash.display_percentage();
+
+
+
+    return 0;
+}
