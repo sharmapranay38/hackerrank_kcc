@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    string s;
+	    cin>>s;
+	   // if(find(s.begin(),s.end(),"101")) cout<<"a";
+	   int find = s.find("101");
+	   int find1 = s.find("010");
+	   if((find!=string::npos)||(find1!=string::npos)) cout<<"Good"<<endl;
+	   else cout<<"Bad"<<endl;
+	}
+	return 0;
+}
